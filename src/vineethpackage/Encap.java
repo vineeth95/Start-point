@@ -3,12 +3,14 @@
 package vineethpackage;
 class Encap /*binding of properties and method inside class*/
 {
-
-    private int id;
+//right click inside the class > select insert code > add property > select getter and setter option
+    
+    private int id; //private variables that can be used only inside method
 
     private String name;
 
-    public String getName() {
+    public String getName() //public methods inside a class
+    {
         return name;
     }
 
